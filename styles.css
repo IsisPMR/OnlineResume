@@ -1,3 +1,60 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgba(238, 248, 241, 0.767);
+}
+
+.CONTENEDOR {
+  border-left: 15px solid rgba(73, 245, 102, 0.637);
+}
+
+.ENCABEZADO {
+    text-align: center;
+}
+
+#IMI {
+
+        width: 250px; 
+        height: 250px;
+        border-radius: 5px;
+        box-shadow: 0.625rem 0.625rem 0 0 rgba(0,0,0,.2);
+}
+
+.DATOS {
+    font-size: 17px;
+    text-align: left;
+}
+
+.DERECHA1 {
+    text-align:right;
+    margin-right:10px;
+    padding-right:7px;
+    border-right:1px solid rgb(2, 231, 105);
+    float:right;
+    width:245px;  
+}
+
+.DERECHA2 {
+    text-align:right;
+    margin-right:10px;
+    padding-right:7px;
+    border-right:1px solid rgb(2, 231, 105);
+    float:right;
+    width:245px;
+}
+
+.IZQUIERDA1 {
+    text-align:left;
+    margin-right:10px;
+    padding-right:7px;
+    border-right:1px solid rgb(2, 231, 105);
+    float:left;
+    width:245px;  
+}
+
+.IZQUIERDA2 {
+    text-align:left;
+    margin-right:10px;
+    padding-right:7px;
+    border-right:1px solid rgb(2, 231, 105);
+    float:left;
+    width:245px;
 }
