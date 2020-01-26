@@ -8,12 +8,7 @@ body{
   border-left: 15px solid  rgba(2, 80, 24, 0.767);
   display: flex;
   flex-direction: row;
-}
-
-.ENCABEZADO {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #IMI {
@@ -31,9 +26,9 @@ body{
 .DERECHA1 {
     margin-right:10px;
     padding-right:7px;
-    border-right:1px solid rgb(2, 231, 105);
+    border-right:1px solid rgb(10, 73, 39);
     float:right;
-    width:450px; 
+    width:380px; 
 }
 
 .IZQUIERDA1 {
@@ -41,15 +36,15 @@ body{
     margin-left: 30px;
     margin-right:10px;
     padding-right:9px;
-    border-right:1px solid rgb(2, 231, 105);
+    border-right:1px solid rgb(10, 73, 39);
     float:left;
-    width:250px;  
+    width:250px; 
 }
 
 progress {border: 1px; height: 10px; width: 200px; border-radius: 5px;}
 /* Safari Chrome */
-progress::-webkit-progress-bar {border-radius: 2px; background-color: #a5f3c3;}
-progress::-webkit-progress-value {border-radius: 2px;background-color: #4cf167a1;}
+progress::-webkit-progress-bar {border-radius: 2px; background-color: #d3f1de;}
+progress::-webkit-progress-value {border-radius: 2px;background-color: #a5f3c3;}
 /* firefox */
 progress::-moz-progress-bar {border-radius: 2px;}
 
