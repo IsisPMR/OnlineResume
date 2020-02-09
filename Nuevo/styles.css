@@ -1,0 +1,99 @@
+.container{
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: whitesmoke;
+    width: 73rem;
+    height: 11rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    padding-top: 1rem;
+}
+
+.title{
+    line-height: 0%;
+    color: #3ebf07d8;
+    text-align: center;
+}
+.sub-title{
+    color: #3ebf07d8;
+    text-align: center;
+}
+
+h4{
+    padding-top: 1rem;
+}
+
+a {
+    color:rgb(6, 10, 7); 
+}
+a:hover{
+    color: #3ebf07d8;
+  }
+
+#profile{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.col-container{
+    background-color: chartreuse;
+    width: 70rem;
+    height: 70rem;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    margin: auto;
+}
+
+.col1{
+    background-color: rgba(255, 0, 149, 0.589);
+    width: 14rem;
+    height: 68rem;
+}
+
+.education{
+    text-align: center;
+}
+.profile{
+    text-align: center;
+}
+
+.col2{
+    background-color: rgba(255, 0, 149, 0.589);
+    width: 53rem;
+    height: 68rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+progress {border: 1px; height: 10px; width: 200px; border-radius: 5px;}
+/* Safari Chrome */
+progress::-webkit-progress-bar {border-radius: 2px; background-color: #d3f1de;}
+progress::-webkit-progress-value {border-radius: 2px;background-color: #a5f3c3;}
+/* firefox */
+progress::-moz-progress-bar {border-radius: 2px;}
+
+.job{
+    text-align: right;
+}
+
+.progress-icons{
+    text-align: center;
+}
+
+.progress-icons{
+    padding-bottom: 1rem;
+}
