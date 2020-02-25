@@ -1,6 +1,7 @@
 body { 
   background-image: url("img/green.png");
   background-size: cover;
+  font-family: 'Zilla Slab';
 }
 
 .container {
@@ -37,13 +38,6 @@ body {
     color: #3ebf07d8;
   }
 
-  #phone {
-    transition: all .2s ease-in-out;
-  }
-  #phone:hover {
-    transform: scale(1.1);
-  }
-
 
   .colContainer {
     background-color: whitesmoke;
@@ -53,7 +47,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    font-size: .8em;
+    font-size: 75%;
+    padding-left: 1.3px;
   }
   .sub-title {
     color: #3ebf07d8;
@@ -64,14 +59,20 @@ body {
     transform: scale(1.1);
   }
 
+  #bootcamp {
+    text-align: justify;
+  }
+  .profile {
+    text-align: justify;
+  }
+
   .column1 {
     height: initial;
     width: 30%;
-    padding-left: 3px;
     border-right: 1px solid #3ebf07d8;
-    padding-left: 1%;
-    padding-right: 1%;
     text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .spanish{
@@ -101,11 +102,12 @@ body {
     height: initial;
     width: 70%;
     padding-left: 2%;
-    padding-right: 1%;
+    padding-right: 2%;
   }
 
   .jobTitle {
-    text-align: right;
+    font-size: 1.3em;
+    color: #3ebf07b9;
   }
 
   .footer {
@@ -136,6 +138,15 @@ body {
     height: 100%;
     border-radius: 9px;
 }
+
+
+.icons {
+  transition: all .2s ease-in-out;
+}
+.icons:hover {
+  transform: scale(1.5);
+}
+
 
   @media screen and (min-width: 1001px) {
     .col1 {
