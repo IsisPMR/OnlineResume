@@ -59,6 +59,9 @@ body {
     transform: scale(1.1);
   }
 
+  #titleBootcamp {
+    font-weight: bold;
+  }
   #bootcamp {
     text-align: justify;
   }
